@@ -4,8 +4,8 @@ import threading
 from sqlalchemy import create_engine, Column, Integer, String, Boolean
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-TOKEN = '7946373810:AAE5aXCQ7PHA69D6hI5Pg7TY81yR5yhtbMY'
-GROUP_ID = -4962220917  # ID твоего телеграм-чата
+TOKEN = '7946373810:'
+GROUP_ID = -496222340917 
 
 DATABASE_URL = "sqlite:///./servers.db"
 
